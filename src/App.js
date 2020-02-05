@@ -3,21 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo"  />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World with React
-        </a>
-      </header>
+    <div>
+      <h1> Hello World</h1>
+      <h4> Desde el componente <span>App</span></h4>
     </div>
   );
 }
